@@ -1,14 +1,13 @@
 export const siteConfig = {
-
-    author:{
-        name: "@ferminoscleaningservices", 
-        title: "Fermino's Cleaning Services",
-        bio: "Cleanig Services in USA. SINCE 2014"
-
-    },
-    social: {
-        instagram: "https://instagram.com",
-        facebook: "https://facebook.com"
-    }
+  author: {
+    name: "Fermino's Cleaning Services",
+    username: '@ferminoscleaningservices',
+    bio: 'Cleaning Services in USA. SINCE 2014',
+    avatar: '/logo-icon.png',
+  },
+  social: {
+    instagram: 'https://instagram.com',
+    facebook: 'https://facebook.com',
+  },
 } as const;
-export type SiteConfig = typeof siteConfig
+export type SiteConfig = typeof siteConfig;
