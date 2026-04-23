@@ -4,7 +4,8 @@ import { Divider } from '@/components/shared/Divider';
 import { ProfileHeader } from './features/profile/page';
 import { SocialLinksBar } from './features/social/page';
 import { siteConfig } from '@/config/site';
-import { socialLinks } from '@/config/links';
+import { primaryLinks, socialLinks } from '@/config/links';
+import { LinkList } from './features/links/page';
 
 export default function Home() {
   return (
@@ -24,9 +25,14 @@ export default function Home() {
               {/* Social Links */}
               <div className="space-y-2 px-6">
                 <Divider />
-                <div className="relative z-10">
+                <div className="relative z-10 py-6">
                   <SocialLinksBar links={socialLinks} />
                 </div>
+              </div>
+
+              {/* List Links */}
+              <div className="relative z-10 px-6">
+                <LinkList links={primaryLinks} />
               </div>
 
               <div className="relative">

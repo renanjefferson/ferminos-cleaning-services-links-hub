@@ -3,7 +3,7 @@
  * Shared across features, components, and services.
  */
 
-export type LinkCategory = 'main' | 'products' | 'resources' | 'social' | 'cta';
+// export type LinkCategory = 'main' | 'products' | 'resources' | 'social' | 'cta';
 
 export interface LinkItem {
   id: string;
@@ -11,7 +11,7 @@ export interface LinkItem {
   url: string;
   description?: string;
   icon?: string;
-  category: LinkCategory;
+  // category: LinkCategory;
   isActive: boolean;
   order: number;
   /** Future: click count for analytics */

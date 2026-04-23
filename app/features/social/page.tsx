@@ -1,6 +1,6 @@
 'use client';
 
-import { FiFacebook, FiInstagram, FiMessageCircle } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiMessageCircle } from 'react-icons/fi';
 import type { SocialLink, SocialPlatformKey } from '@/types/links';
 import { cn } from '@/lib/utils';
 
@@ -32,7 +32,7 @@ export function SocialLinksBar({ links, className }: SocialLinksBarProps) {
             aria-label={link.label}
             className="text-muted-foreground hover:bg-accent hover:text-accent-foreground focus-visible:ring-ring rounded-full p-2 transition-colors focus-visible:ring-2 focus-visible:outline-none"
           >
-            <Icon className="h-5 w-5" />
+            <Icon className="h-6 w-6" />
           </a>
         );
       })}
