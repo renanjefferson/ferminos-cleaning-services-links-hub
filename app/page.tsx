@@ -1,9 +1,9 @@
+import { ProfileHeader } from './features/profile';
 import { Divider } from '@/components/shared/Divider';
-import { ProfileHeader } from './features/profile/page';
-import { SocialLinksBar } from './features/social/page';
-import { siteConfig } from '@/config/site';
+import { SocialLinksBar } from './features/social';
+import { LinkList } from './features/links';
 import { primaryLinks, socialLinks } from '@/config/links';
-import { LinkList } from './features/links/page';
+import { siteConfig } from '@/config/site';
 
 export default function Home() {
   return (
