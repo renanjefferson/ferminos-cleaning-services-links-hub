@@ -1,5 +1,3 @@
-'use client';
-
 import { FiExternalLink } from 'react-icons/fi';
 import { LinkItem } from '@/types/links';
 import { cn } from '@/lib/utils';

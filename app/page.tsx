@@ -1,5 +1,3 @@
-'use client';
-
 import { Divider } from '@/components/shared/Divider';
 import { ProfileHeader } from './features/profile/page';
 import { SocialLinksBar } from './features/social/page';

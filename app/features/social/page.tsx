@@ -1,5 +1,3 @@
-'use client';
-
 import { FiFacebook, FiInstagram, FiMessageCircle } from 'react-icons/fi';
 import type { SocialLink, SocialPlatformKey } from '@/types/links';
 import { cn } from '@/lib/utils';

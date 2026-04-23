@@ -1,5 +1,3 @@
-'use client';
-
 import { LinkItem } from '@/types/links';
 import { ListCard } from './components/ListCard';
 
