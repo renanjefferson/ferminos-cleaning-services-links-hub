@@ -23,11 +23,7 @@ export function ProfileHeader({
   return (
     <div className="flex flex-col items-center gap-3 p-6 text-center">
       <Avatar className="flex h-24 w-24 items-center justify-center md:h-32 md:w-32">
-        <AvatarImage
-          src={avatarUrl}
-          alt={name}
-          className="w-3/5 object-contain"
-        />
+        <AvatarImage src={avatarUrl} alt={name} className="object-contain" />
         <AvatarFallback className="text-lg font-semibold">
           {initials}
         </AvatarFallback>

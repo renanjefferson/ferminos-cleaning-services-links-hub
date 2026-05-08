@@ -8,7 +8,7 @@ export const primaryLinks: LinkItem[] = [
   {
     id: '1',
     title: 'Visit our website',
-    url: 'https://example.com',
+    url: '//ferminoscleaningservices.com',
     description: 'Check out my latest work',
     icon: 'globe',
     isActive: true,
@@ -17,7 +17,7 @@ export const primaryLinks: LinkItem[] = [
   {
     id: '2',
     title: 'Free Cleaning Quote',
-    url: 'https://blog.example.com/contact',
+    url: '//ferminoscleaningservices.com/#quote',
     description: '',
     icon: 'book-open',
     isActive: true,
@@ -28,17 +28,17 @@ export const primaryLinks: LinkItem[] = [
 export const socialLinks: SocialLink[] = [
   {
     platform: 'facebook',
-    url: 'https://resources.example.com',
+    url: '//facebook.com/ferminoscleaningservices',
     label: 'Facebook',
   },
   {
     platform: 'instagram',
-    url: '',
+    url: '//instagram.com/ferminoscleaningservices',
     label: 'Instagram',
   },
   {
     platform: 'whatsapp',
-    url: '',
+    url: '//wa.me//18568822511?text=Hello,%20I%20would%20like%20to%20request%20a%20quote.',
     label: 'WhatsApp',
   },
 ];
